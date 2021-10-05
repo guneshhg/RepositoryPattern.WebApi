@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{C0CAF34B-A580-49EE-B575-D7910B8CF01E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.EFCore", "DataAccess.EFCore\DataAccess.EFCore.csproj", "{F2AA3F57-0A6C-4E82-86C0-A50CA32C287A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{14F2BF51-7359-4379-9103-805A0A1EE36A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0CAF34B-A580-49EE-B575-D7910B8CF01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CAF34B-A580-49EE-B575-D7910B8CF01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CAF34B-A580-49EE-B575-D7910B8CF01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CAF34B-A580-49EE-B575-D7910B8CF01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2AA3F57-0A6C-4E82-86C0-A50CA32C287A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AA3F57-0A6C-4E82-86C0-A50CA32C287A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AA3F57-0A6C-4E82-86C0-A50CA32C287A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AA3F57-0A6C-4E82-86C0-A50CA32C287A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F2BF51-7359-4379-9103-805A0A1EE36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F2BF51-7359-4379-9103-805A0A1EE36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F2BF51-7359-4379-9103-805A0A1EE36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F2BF51-7359-4379-9103-805A0A1EE36A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFA4034A-3CFE-4697-AA44-9A1071F1DE50}
+	EndGlobalSection
+EndGlobal
